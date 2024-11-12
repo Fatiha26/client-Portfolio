@@ -12,15 +12,15 @@ const Who = () => {
         <div>
           <p className="text-sm text-primary-600">About me</p>
           <p className="text-xl mt-1 mb-3 font-semibold text-primary-400">Arjon Golder’s Details</p>
-          <p className="text-md text-justify text-black mb-4">
+          <p className="text-md text-justify text-secondary-400 mb-4">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s.
           </p>
           <a
             href="#"
-            className="px-4 py-2 shadow-md border  bg-white shadow-secondary-200 rounded-md
-                        text-primary-400 text-sm font-semibold hover:shadow-secondary-300 delay-75 transition-all"
+            className="px-4 py-2 shadow-md  text-white rounded-md
+                        bg-primary-400 text-sm font-semibold hover:shadow-secondary-300 delay-75 transition-all"
           >
             Explore
           </a>
@@ -29,8 +29,8 @@ const Who = () => {
         {aboutData.map((item, index) => (
             <div key={index} className="md:p-4 p-3 h-24  text-center flex flex-col justify-between cursor-pointer bg-white shadow-md shadow-secondary-200 hover:shadow-secondary-300 delay-75 rounded-md">
               <p className="md:text-md text-sm text-primary-600 font-bold">{item.post}</p>
-              <p className="md:text-sm text-xs leading-none">{item.loc}</p>
-              <p className="md:text-sm text-xs leading-none">{item.time}</p>
+              <p className="md:text-sm text-xs leading-none text-secondary-400">{item.loc}</p>
+              <p className="md:text-sm text-xs leading-none text-secondary-400">{item.time}</p>
             </div>
           ))}
         </div>

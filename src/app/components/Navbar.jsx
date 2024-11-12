@@ -26,31 +26,37 @@ const Navbar = () => {
       <div className="hidden lg:flex text-sm  font-semibold">
         <Link
           className="px-4 py-2 text-secondary-400 hover:text-black"
+          href="/"
+        >
+          Home
+        </Link>
+        <Link
+          className="px-4 py-2 text-secondary-400 hover:text-black"
           href="#about"
         >
           About
         </Link>
         <Link
           className="px-4 py-2 text-secondary-400 hover:text-black"
-          href="/blog"
+          href="#blog"
         >
           Blogs
         </Link>
         <Link
           className="px-4 py-2 text-secondary-400 hover:text-black"
-          href="/skill"
+          href="#skill"
         >
           Skills
         </Link>
         <Link
           className="px-4 py-2 text-secondary-400 hover:text-black"
-          href="/project"
+          href="#project"
         >
           Projects
         </Link>
         <Link
           className="px-4 py-2 text-secondary-400 hover:text-black"
-          href="/contact"
+          href="#contact"
         >
           Contact
         </Link>

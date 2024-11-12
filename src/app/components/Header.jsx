@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import { FaArrowRight, FaGithub, FaLinkedin } from "react-icons/fa6";
 import Navbar from "./Navbar";
-import Logo from "./Logo";
 
 const Header = () => {
   return (
@@ -17,8 +16,8 @@ const Header = () => {
         ></Image>
         <a
           href="#"
-          className="absolute md:bottom-20 bottom-5 right-4 md:right-[-60px] px-5 py-2 shadow-md border  bg-white shadow-secondary-200 rounded-md
-                    text-primary-400 text-sm font-bold hover:shadow-secondary-300 delay-75 transition-all"
+          className="absolute md:bottom-20 bottom-5 right-4 md:right-[-60px] px-6 py-2 shadow-md  text-white  rounded-md
+                    bg-primary-400 text-sm font-bold hover:shadow-secondary-300 delay-75 transition-all"
         >
           My Resume
         </a>
