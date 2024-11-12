@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight, FaGithub, FaLinkedin } from "react-icons/fa6";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
 
@@ -17,8 +17,8 @@ const Header = () => {
         ></Image>
         <a
           href="#"
-          className="absolute md:bottom-20 bottom-5 right-4 md:right-[-60px] px-6 py-2 shadow-md border  bg-white shadow-secondary-200 rounded-md
-                        text-primary-400 text-sm font-bold hover:shadow-secondary-300 delay-75 transition-all"
+          className="absolute md:bottom-20 bottom-5 right-4 md:right-[-60px] px-5 py-2 shadow-md border  bg-white shadow-secondary-200 rounded-md
+                    text-primary-400 text-sm font-bold hover:shadow-secondary-300 delay-75 transition-all"
         >
           My Resume
         </a>
@@ -37,9 +37,15 @@ const Header = () => {
           industry. Lorem Ipsum has been the industry&apos;s standard dummy text
           ever since the 1500s.
         </p>
-        <div className="flex items-center animate-bounce">
-          <a href="#" className=" text-md text-primary-600 font-semibold mr-2">Let’s Talk</a>
+        <div className="flex mt-8 items-center animate-bounce">
+          <a href="#" className=" text-md text-primary-600 font-semibold mr-2">
+            Let’s Talk
+          </a>
           <FaArrowRight className="text-primary-600 " />
+        </div>
+        <div className="flex items-center gap-2 mt-2">
+          <FaGithub className="text-3xl" />
+          <FaLinkedin className="text-3xl" />
         </div>
       </div>
     </div>
