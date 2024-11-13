@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div id="project">
+    <div id="project" className="my-12">
       <h2 className="text-center text-3xl font-bold text-primary-600">
         Get in Touch
       </h2>
