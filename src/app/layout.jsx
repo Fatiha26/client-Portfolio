@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,6 +39,8 @@ export default function RootLayout({ children }) {
         <Skills />
         <Projects />
         <Contact />
+        <ScrollToTop/>
+        
         <Footer />
       </body>
     </html>
