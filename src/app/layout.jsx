@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Who from "./components/Who";
 import Blogs from "./components/Blogs";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +34,9 @@ export default function RootLayout({ children }) {
         {children}
         <Who />
         <Blogs />
+        <Skills />
         <Projects />
+        <Contact />
       </body>
     </html>
   );

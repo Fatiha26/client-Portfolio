@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="px-16 py-4" id="blog">
+    <div className="px-16 py-4" id="project">
       <h2 className="text-center text-3xl font-bold text-primary-600">
         Recent Projects
       </h2>
