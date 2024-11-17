@@ -25,37 +25,37 @@ const Navbar = () => {
       {/* Links for larger screens */}
       <div className="hidden lg:flex text-sm  font-semibold">
         <Link
-          className="px-4 py-2 text-secondary-400 hover:text-black"
+          className="px-4 py-2 border border-white text-secondary-400 hover:text-black hover:border-secondary-200 rounded-lg"
           href="/"
         >
           Home
         </Link>
         <Link
-          className="px-4 py-2 text-secondary-400 hover:text-black"
+          className="px-4 py-2 border border-white text-secondary-400 hover:text-black hover:border-secondary-200 rounded-lg"
           href="#about"
         >
           About
         </Link>
         <Link
-          className="px-4 py-2 text-secondary-400 hover:text-black"
+          className="px-4 py-2 border border-white text-secondary-400 hover:text-black hover:border-secondary-200 rounded-lg"
           href="#blog"
         >
           Blogs
         </Link>
         <Link
-          className="px-4 py-2 text-secondary-400 hover:text-black"
+          className="px-4 py-2 border border-white text-secondary-400 hover:text-black hover:border-secondary-200 rounded-lg"
           href="#skill"
         >
           Skills
         </Link>
         <Link
-          className="px-4 py-2 text-secondary-400 hover:text-black"
+          className="px-4 py-2 border border-white text-secondary-400 hover:text-black hover:border-secondary-200 rounded-lg"
           href="#project"
         >
           Projects
         </Link>
         <Link
-          className="px-4 py-2 text-secondary-400 hover:text-black"
+          className="px-4 py-2 border border-white text-secondary-400 hover:text-black hover:border-secondary-200 rounded-lg"
           href="#contact"
         >
           Contact
